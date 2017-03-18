@@ -14,6 +14,7 @@ public class Main {
         MazeAlgorithm algorithm = new MazeAlgorithm();
 
         factory.generate(3, 2);
+        algorithm.printToFile(maze);
         algorithm.print(maze);
     }
 
@@ -31,7 +32,7 @@ public class Main {
         System.out.println("Width: ");
         width = in.nextInt();
         System.out.println("< Entry & Exit >");
-        System.out.println("Recomended values: odd numbers greater than 9");
+        System.out.println("Recommended values: odd numbers greater than 9");
         System.out.println("Entry: ");
         entry = in.nextInt();
         System.out.println("Exit: ");

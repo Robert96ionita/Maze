@@ -33,4 +33,8 @@ public class Maze {
         public int getHeight() {
             return height;
         }
+
+        public void serialize() {
+            //TODO maybe another time :)
+        }
 }
