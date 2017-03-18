@@ -27,12 +27,12 @@ public class Main {
         int height;
 
         System.out.println("< Maze dimensions >");
+        System.out.println("Recommended values: odd numbers greater than 9");
         System.out.println("Height: ");
         height = in.nextInt();
         System.out.println("Width: ");
         width = in.nextInt();
         System.out.println("< Entry & Exit >");
-        System.out.println("Recommended values: odd numbers greater than 9");
         System.out.println("Entry: ");
         entry = in.nextInt();
         System.out.println("Exit: ");
